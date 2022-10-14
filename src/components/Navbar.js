@@ -40,8 +40,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} style={{width: "100%", height: "100%", minHeight: "3rem", minWidth: "5rem"}} className="img-fluid logo" alt="brand" /> */}
+        <Navbar.Brand href="https://neerajsinghraikwal.github.io/my-portfolio" className="d-flex">
           <div style={{display:"flex", width: "100%", height: "100%", minHeight: "3rem", minWidth: "5rem",marginLeft:'-1em',marginTop:"1em"}} ><h4 style={{fontWeight:"bold"}}>NEE</h4><h4 style={{color:"red",fontWeight:"bold"}}>RAJ</h4></div>
         </Navbar.Brand>
         <Navbar.Toggle
