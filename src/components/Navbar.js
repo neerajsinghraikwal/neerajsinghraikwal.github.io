@@ -8,7 +8,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineTool
+  AiOutlineTool,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -28,9 +28,8 @@ function NavBar() {
     window.addEventListener("scroll", scrollHandler);
     return () => {
       window.removeEventListener("scroll");
-    }
-  }, [])
-  
+    };
+  }, []);
 
   return (
     <Navbar
@@ -40,8 +39,21 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="" className="d-flex">
-          <div style={{display:"flex", width: "100%", height: "100%", minHeight: "3rem", minWidth: "5rem",marginLeft:'-1em',marginTop:"1em"}} ><h4 style={{fontWeight:"bold"}}>NEE</h4><h4 style={{color:"red",fontWeight:"bold"}}>RAJ</h4></div>
+        <Navbar.Brand href="/my-portfolio/" className="d-flex">
+          <div
+            style={{
+              display: "flex",
+              width: "100%",
+              height: "100%",
+              minHeight: "3rem",
+              minWidth: "5rem",
+              marginLeft: "-1em",
+              marginTop: "1em",
+            }}
+          >
+            <h4 style={{ fontWeight: "bold" }}>NEE</h4>
+            <h4 style={{ color: "red", fontWeight: "bold" }}>RAJ</h4>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -71,7 +83,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -104,7 +115,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
