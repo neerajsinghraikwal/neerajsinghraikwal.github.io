@@ -5,7 +5,7 @@ import {} from "react-bootstrap";
 function Type() {
   return (
     <>
-      <div style={{display:"flex" ,gap:"20px", marginTop: "-30px", width:"200%"}}>
+      <div style={{display:"flex" ,gap:"20px", marginTop: "-30px", width:"100%"}}>
         <div style={{fontSize:"1.8em",fontWeight:"700"}}> I'm a </div>
         <div>
         <Typewriter 
