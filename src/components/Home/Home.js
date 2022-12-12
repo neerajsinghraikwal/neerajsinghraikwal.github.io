@@ -4,10 +4,8 @@ import myimage from "../../Assets/myimage.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import About from "../About/About";
 import { useParams } from "react-router-dom";
 import loadable from "@loadable/component";
-import Nav from "react-bootstrap/Nav";
 
 import { CgFileDocument } from "react-icons/cg";
 

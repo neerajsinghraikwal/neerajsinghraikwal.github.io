@@ -24,22 +24,6 @@ const projects = [
     demo: "https://prayagp8.github.io/Project-zoom-car/",
     stack: ["javascript", "node", "html", "css", "git"]
   },
-  // {
-  //   imgPath: YtMusic,
-  //   title: "YouTube Music Clone",
-  //   description: "Youtube music allows user to play any song, search for any artist, song, playlist and add it to the library. Library will persist only for few hours as it is maintained using heroku and mock- server.",
-  //   link: "",
-  //   demo: "",
-  //   stack: ["javascript", "node", "html", "css", "git"]
-  // },
-  // {
-  //   imgPath: Airtable,
-  //   title: "Airtable Clone",
-  //   description: "UI clone of Airtable, a cloud-based software company that offers an online platform for creating and sharing relational databases.",
-  //   link: "",
-  //   demo: "",
-  //   stack: ["javascript", "html", "css", "git"]
-  // }
 ];
 
 

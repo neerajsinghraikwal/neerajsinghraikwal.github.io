@@ -13,47 +13,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I love problem solving and programming
-              <br />
-              <br />I am an aspiring
-              <i>
-                <b className="purple"> Full Stack Web Developer. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies, Products </b> and in{" "}
-                <b className="purple">Data Structures and Algorithms.</b>
-              </i>
+              I am an aspiring
+              <b className="purple"> Full Stack Web Developer </b>
+              with more than <b className="purple">1200+</b> hours of coding and building and
+              deploying <b className="purple"> single page/eCommerce applications</b> using <b className="purple">MERN</b> stack. 
+             <br />
+             I can adapt onto
+              any technology rapidly making myself flexible upon any tech stack.
+              A passionate, diligent person who wants to learn continuously.
+              
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-            <ul>
-              <li className="about-activity">
-                <ImPointRight /> Exploring/Learning new technologies
-              </li>
-              <li className="about-activity">
-                <ImPointRight /> Listening Music
-              </li>
-              <li className="about-activity">
-                <ImPointRight /> Hiking
-              </li>
-            </ul>
+              Apart from coding, some other activities that I love to do!
+              <ul>
+                <li className="about-activity">
+                  <ImPointRight /> Exploring/Learning new technologies
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Listening Music
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Hiking
+                </li>
+              </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

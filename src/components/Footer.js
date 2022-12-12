@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
-import { SiLeetcode } from "react-icons/si";
-import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -32,8 +31,18 @@ function Footer() {
                 className="icon-colour  home-social-icons"
               >
                 <FaLinkedinIn />
+              </a> */}
+            {/* </li> */}
+            <li className="social-icons">
+              <a
+                href="mailto:nsrneerajsingh2721@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillMail />
               </a>
-            </li> */}
+            </li>
           </ul>
         </Col>
       </Row>

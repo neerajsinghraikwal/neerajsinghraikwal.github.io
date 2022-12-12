@@ -17,25 +17,6 @@ html {
   color: var(--imp-text-color) !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#preloader-none {
-  opacity: 0;
-}
 
 #no-scroll {
   overflow: hidden;
@@ -447,6 +428,7 @@ html {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: var(--section-background-color) !important;
+  display:flex
 }
 
 .project-card {
@@ -464,6 +446,7 @@ html {
   opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
   height: fit-content !important;
+  display:flex
 }
 .project-card-view:hover {
   filter: brightness(1.02);
@@ -714,7 +697,6 @@ p {
   box-shadow: 0 4px 5px 3px rgba(115, 151, 230, 0.883) !important;
   max-width: 550px;
   margin: 20px auto;
-  flex-direction: column;
   justify-content: flex-start;
   border-radius: 10px;
   overflow: hidden;
@@ -722,6 +704,7 @@ p {
   transition: all .3s ease-in-out;
   background-color: transparent !important;
   position: relative;
+  display: flex
 }
 
 .project-card:hover .glass {
@@ -767,7 +750,6 @@ p {
 }
 
 .second-color {
-  /* background-color: rgba(115, 151, 230, 0.883) !important; */
   background-color: rgba(12, 20, 36, 0.883) !important;
 }
 

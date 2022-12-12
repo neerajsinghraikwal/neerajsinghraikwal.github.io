@@ -50,8 +50,8 @@ const map = {
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view glass project-div" >
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{backgroundColor:"white"}} />
+    <Card className="project-card-view glass project-div">
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body style={{padding: "5px 1rem 1.25rem", height: "fill"}}>
         <Card.Title className="purple">{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
