@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
@@ -113,6 +112,19 @@ function NavBar() {
                 rel="noreferrer"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>

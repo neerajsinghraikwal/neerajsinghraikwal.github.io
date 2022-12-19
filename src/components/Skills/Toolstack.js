@@ -1,14 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-} from "react-icons/si";
-
-import {
-  DiGit
-} from "react-icons/di";
+import { Col, Row } from "react-bootstrap"; 
 import vsimg from "../../Assets/vsimg.png"
 import gitimg from "../../Assets/gitimg.png"
 import postimg from "../../Assets/postimg.png"

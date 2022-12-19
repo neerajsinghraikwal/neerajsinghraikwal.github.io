@@ -447,6 +447,8 @@ html {
   transition: all 0.5s ease 0s !important;
   height: fit-content !important;
   display:flex
+
+  /* width: 100%; */
 }
 .project-card-view:hover {
   filter: brightness(1.02);
@@ -704,7 +706,8 @@ p {
   transition: all .3s ease-in-out;
   background-color: transparent !important;
   position: relative;
-  display: flex
+  display: flex;
+  flex-direction: column
 }
 
 .project-card:hover .glass {

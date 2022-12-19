@@ -8,6 +8,8 @@ import { useParams } from "react-router-dom";
 import loadable from "@loadable/component";
 
 import { CgFileDocument } from "react-icons/cg";
+import Contact from "../Contact";
+// import Footer from "../Footer";
 
 const Skills = loadable(() => import("../Skills/Skills"));
 const Projects = loadable(() => import("../Projects/Projects"));
@@ -16,8 +18,11 @@ function Home() {
   const { id } = useParams();
 
   useEffect(() => {
-    if ( window ){
-      const eleHeight = id && document.getElementById(id) ? document.getElementById(id).offsetTop : 0;
+    if (window) {
+      const eleHeight =
+        id && document.getElementById(id)
+          ? document.getElementById(id).offsetTop
+          : 0;
       window.scrollTo(0, eleHeight || 0);
     }
   });
@@ -29,7 +34,10 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 className="heading" style={{ paddingBottom: 1,fontSize:"10px" }} >
+              <h1
+                className="heading"
+                style={{ paddingBottom: 1, fontSize: "10px" }}
+              >
                 <strong>Hello, my name is</strong>
                 {/* <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -45,28 +53,32 @@ function Home() {
               >
                 <Type />
               </div>
-              <div className="resume navbar-nav" >
-                  <Button
-                    style={{
-                      backgroundColor: "red",
-                      maxWidth: "10rem",
-                      width: "90%",
-                      margin: "10px 0px 10px 2rem",
-                      fontSize: "1.5rem",
-                      height: "3rem",
-                    }}
-                    className="main-resume"
-                    href="https://drive.google.com/file/d/1dBsnOZ3EGxhSGUsearzMJio2jZMax9v8/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-                  </Button>
+              <div className="resume navbar-nav">
+                <Button
+                  style={{
+                    backgroundColor: "red",
+                    maxWidth: "10rem",
+                    width: "90%",
+                    margin: "10px 0px 10px 2rem",
+                    fontSize: "1.5rem",
+                    height: "3rem",
+                  }}
+                  className="main-resume"
+                  href="https://drive.google.com/uc?export=download&id=1dBsnOZ3EGxhSGUsearzMJio2jZMax9v8"
+                  rel="noreferrer"
+                >
+                  <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                </Button>
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img style={{width:'300px'}}  src={myimage} alt="home pic" className="img-fluid" />
+              <img
+                style={{ width: "300px" }}
+                src={myimage}
+                alt="home pic"
+                className="img-fluid"
+              />
             </Col>
           </Row>
         </Container>
@@ -74,7 +86,8 @@ function Home() {
       <Home2 />
       <Skills />
       <Projects />
-      </>
+      <Contact />
+    </>
   );
 }
 

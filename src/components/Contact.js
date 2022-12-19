@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 // import { FaLinkedinIn } from "react-icons/fa";
 
-function Footer() {
+function Contact() {
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" id="contact">
       <Row>
         <Col md={12} className="home-about-social">
           <h1>FIND ME ON</h1>
@@ -31,8 +31,8 @@ function Footer() {
                 className="icon-colour  home-social-icons"
               >
                 <FaLinkedinIn />
-              </a> */}
-            {/* </li> */}
+              </a>
+            </li> */}
             <li className="social-icons">
               <a
                 href="mailto:nsrneerajsingh2721@gmail.com"
@@ -92,8 +92,10 @@ function Footer() {
           </ul>
         </Col> */}
       {/* </Row> */}
+      <p style={{color:"white"}}>Email : nsrneerajsingh2721@gmail.com</p>
+      <p style={{color:"white"}}>Mobile No : 63963699986</p>
     </Container>
   );
 }
 
-export default Footer;
+export default Contact;
