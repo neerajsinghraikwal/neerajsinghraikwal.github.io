@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import myimg from "../../Assets/myimage.jpg";
+import updateimg from "../../Assets/updateimage.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -75,7 +75,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 style={{ width: "300px" }}
-                src={myimg}
+                src={updateimg}
                 alt="home pic"
                 className="img-fluid"
               />
