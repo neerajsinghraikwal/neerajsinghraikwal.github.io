@@ -64,7 +64,8 @@ function Home() {
                     height: "3rem",
                   }}
                   className="main-resume"
-                  href="https://drive.google.com/uc?export=download&id=1dBsnOZ3EGxhSGUsearzMJio2jZMax9v8"
+                  href=""
+                  // https://drive.google.com/uc?export=download&id=1dBsnOZ3EGxhSGUsearzMJio2jZMax9v8"
                   rel="noreferrer"
                 >
                   <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
