@@ -47,7 +47,7 @@ function Contact() {
         </Col>
       </Row>
       <p style={{color:"white"}}>Email : nsrneerajsingh2721@gmail.com</p>
-      <p style={{color:"white"}}>Mobile No : 63963699986</p>
+      <p style={{color:"white"}}>Mobile No : 7895814192</p>
     </Container>
   );
 }

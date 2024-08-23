@@ -13,15 +13,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am an aspiring
-              <b className="purple"> Full Stack Web Developer </b>
-              with more than <b className="purple">1200+</b> hours of coding and building and
-              deploying <b className="purple"> single page/eCommerce applications</b> using <b className="purple">MERN</b> stack. 
-             <br />
-             I can adapt onto
-              any technology rapidly making myself flexible upon any tech stack.
-              A passionate, diligent person who wants to learn continuously.
-              
+            <b className="purple"> Full Stack Developer </b> with extensive experience in designing, developing, and deploying scalable web and mobile applications. Proficient in using the MERN stack to create dynamic e-commerce platforms and comprehensive CRM systems tailored for salon businesses. Skilled in enhancing application performance and reliability through the use of Redis for caching and RabbitMQ for message queuing. Experienced in leveraging AWS for deploying and managing applications, ensuring high availability and scalability. Adept at collaborating with cross-functional teams to deliver robust solutions that drive business growth and improve user experience.
+              {/* <b className="purple"> Full Stack Web Developer </b> */}
               <br />
               <br />
               Apart from coding, some other activities that I love to do!
