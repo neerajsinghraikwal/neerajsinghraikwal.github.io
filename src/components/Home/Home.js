@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import updateimg from "../../Assets/myimg.jpg";
+import updateimg from "../../Assets/myimage.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
